@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Receipt from './components/Receipt';
+import Header from './components/Header';
 
 import './App.css';
 
