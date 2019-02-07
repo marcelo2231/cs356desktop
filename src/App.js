@@ -41,10 +41,17 @@ class App extends Component {
             }
         ]
     }
+    getRowStyle = () => {
+        return {
+            content: '', display: 'table', clear: 'both'
+        }
+    }
     render() {
     return (
-      <div className="App">
-            <Receipt receipts={this.state.receipts}/>
+        <div className="App">
+            <div style={this.getRowStyle()}>
+                <Receipt receipts={this.state.receipts} />
+            </div>
       </div>
     );
   }
