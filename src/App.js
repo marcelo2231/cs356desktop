@@ -50,6 +50,7 @@ class App extends Component {
     render() {
     return (
         <div className="App">
+            <Header/>
             <div style={this.getRowStyle()}>
                 <Receipt receipts={this.state.receipts} />
             </div>

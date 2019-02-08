@@ -27,7 +27,7 @@ export class ReceiptItem extends Component {
 
     getSubjectLeftStyle = () => {
         return {
-            background: '#28353E',
+            background: '#3A3E45',
             height: 40,
             width: '50%',
             textAlign: 'left',
@@ -38,7 +38,7 @@ export class ReceiptItem extends Component {
     }
     getSubjectRightStyle = () => {
         return {
-            background: '#28353E',
+            background: '#3A3E45',
             height: 40,
             width: '50%',
             textAlign: 'right',
@@ -150,7 +150,7 @@ export class ReceiptItem extends Component {
         return (
             <div style={this.getDivStyle()}>
                 <div style={this.getTitleStyle()}>
-                    <p style={{ color: '#28353E', display: 'table-cell', verticalAlign: 'middle', fontFamily: '"Arial Black", Gadget, sans-serif', fontSize: 12}}>{this.props.receipt.title}</p>
+                    <p style={{ color: '#3A3E45', display: 'table-cell', verticalAlign: 'middle', fontFamily: '"Arial Black", Gadget, sans-serif', fontSize: 12}}>{this.props.receipt.title}</p>
                 </div>
                 <div style={this.getRowStyle()}>
                     <div style={this.getSubjectLeftStyle()}>
@@ -164,40 +164,40 @@ export class ReceiptItem extends Component {
                 </div>
                 <div style={this.getRowStyle()}>
                     <div style={this.getTaskStyle()}>
-                        <p style={{ color: '#28353E', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Task</p>
+                        <p style={{ color: '#3A3E45', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Task</p>
                     </div>
                     <div style={this.getPriceStyle()}>
-                        <p style={{ color: '#28353E', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Price</p>
+                        <p style={{ color: '#3A3E45', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Price</p>
                     </div>
                     <div style={this.getAmountStyle()}>
-                        <p style={{ color: '#28353E', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Amount</p>
+                        <p style={{ color: '#3A3E45', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Amount</p>
                     </div>
                     <div style={this.getTotalStyle()}>
-                    <p style={{ color: '#28353E', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Total</p>
+                        <p style={{ color: '#3A3E45', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Total</p>
                     </div>
                 </div>
                 <div style={this.getRowStyle()}>
                     <div style={this.getTaskOneStyle()}>
-                        <p style={{ color: '#28353E', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>{this.props.receipt.task}</p>
+                        <p style={{ color: '#3A3E45', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>{this.props.receipt.task}</p>
                     </div>
                     <div style={this.getPriceOneStyle()}>
-                        <p style={{ color: '#28353E', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>${this.props.receipt.price}</p>
+                        <p style={{ color: '#3A3E45', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>${this.props.receipt.price}</p>
                     </div>
                     <div style={this.getAmountOneStyle()}>
-                        <p style={{ color: '#28353E', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>{this.props.receipt.amount}</p>
+                        <p style={{ color: '#3A3E45', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>{this.props.receipt.amount}</p>
                     </div>
                     <div style={this.getTotalOneStyle()}>
-                        <p style={{ color: '#28353E', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>${this.props.receipt.total}</p>
+                        <p style={{ color: '#3A3E45', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>${this.props.receipt.total}</p>
                     </div>
                 </div>
                 <div style={{ height: 105 }} />
                 <div style={this.getRowStyle()}>
-                    <div style={{ height: 40, width: '65%', backgroundColor: '#28353E', float: 'left'}}>
+                    <div style={{ height: 40, width: '65%', backgroundColor: '#3A3E45', float: 'left'}}>
                     </div>
-                    <div style={{ height: 40, width: '15%', backgroundColor: '#28353E', float: 'left', paddingTop:3}}>
+                    <div style={{ height: 40, width: '15%', backgroundColor: '#3A3E45', float: 'left', paddingTop:3}}>
                         <p style={{ color: '#ffffff', fontSize: 8, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>Total:</p>
                     </div>
-                    <div style={{ height: 40, width: '20%', backgroundColor: '#28353E', float: 'left', paddingTop: 10}}>
+                    <div style={{ height: 40, width: '20%', backgroundColor: '#3A3E45', float: 'left', paddingTop: 10}}>
                         <p style={{ color: '#ffffff', fontSize: 12, verticalAlign: 'middle', fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 'bold' }}>${this.props.receipt.total}</p>
                     </div>
                 </div>
