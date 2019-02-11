@@ -56,7 +56,7 @@ class App extends Component {
                 <div className="UploadStyle">
                     <div className="DescriptionDiv">
                         <p className="CompanyName">HSA Tracker </p>
-                        <p className="Description">helps you to keep track of all of your HSA receipts for taxing purposes. Scan your all of your receipts below!</p>
+                        <p className="Description">helps you to keep track of all of your HSA receipts for taxing purposes. Scan all of your receipts below!</p>
                     </div>
                     <Upload />
                 </div>
