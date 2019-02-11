@@ -13,3 +13,40 @@ a{
 	color: #333;
 	text-decoration: none;
 }
+
+.DescriptionDiv {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.Description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #3A3E45;
+}
+
+.CompanyName {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    color: #3A3E45;
+    float: left;
+    margin-right: 6px;
+    margin-top: -1px;
+}
+
+.UploadOutter {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.UploadStyle {
+    background: rgba(149, 249, 227, 0.4);
+    color: #95F9E3;
+    content: '';
+    display: table;
+    width: 100%;
+}

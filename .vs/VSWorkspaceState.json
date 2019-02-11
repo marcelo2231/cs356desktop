@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\components"
   ],
-  "SelectedNode": "\\src\\components\\ReceiptItem.js",
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }

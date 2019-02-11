@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Receipt from './components/Receipt';
 import Header from './components/Header';
+import Upload from './components/Upload';
 
 import './App.css';
 
@@ -50,7 +51,16 @@ class App extends Component {
     render() {
     return (
         <div className="App">
-            <Header/>
+            <Header />
+            <div className="UploadOutter">
+                <div className="UploadStyle">
+                    <div className="DescriptionDiv">
+                        <p className="CompanyName">HSA Tracker </p>
+                        <p className="Description">helps you to keep track of all of your HSA receipts for taxing purposes. Scan your all of your receipts below!</p>
+                    </div>
+                    <Upload />
+                </div>
+            </div>
             <div style={this.getRowStyle()}>
                 <Receipt receipts={this.state.receipts} />
             </div>
