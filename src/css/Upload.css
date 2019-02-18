@@ -2,8 +2,6 @@
     position: relative;
     overflow: hidden;
     display: inline-block;
-    float: left;
-    left: 50%;
     margin-top: 10px;
     margin-bottom: 20px;
 }

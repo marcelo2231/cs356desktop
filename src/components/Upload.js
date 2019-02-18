@@ -4,9 +4,11 @@ import '../css/Upload.css';
 class Upload extends Component {
     render() {
         return (
-            <div className="WrapperStyle">
-                <button className="ButtonStyle">Upload a file</button>
-                <input type="file" name="myfile" />
+            <div style={{ textAlign: 'center' }}>
+                <div className="WrapperStyle">
+                    <button className="ButtonStyle">Upload a receipt</button>
+                    <input type="file" name="myfile" />
+                 </div>
             </div>
         );
     }

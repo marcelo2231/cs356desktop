@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Receipt from './components/Receipt';
 import Header from './components/Header';
 import Upload from './components/Upload';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -14,7 +15,8 @@ class App extends Component {
                 task: 'Root Canal',
                 price: 532,
                 amount: 1,
-                total: 532
+                total: 532,
+                display: "block"
             },
             {
                 id: 2,
@@ -22,7 +24,8 @@ class App extends Component {
                 task: 'Foot Amputation',
                 price: 1325,
                 amount: 1,
-                total: 1325
+                total: 1325,
+                display: "block"
             },
             {
                 id: 3,
@@ -30,7 +33,8 @@ class App extends Component {
                 task: 'Ultrasound',
                 price: 135,
                 amount: 1,
-                total: 135
+                total: 135,
+                display: "none"
             },
             {
                 id: 4,
@@ -38,14 +42,18 @@ class App extends Component {
                 task: 'Fetus Sickness Test',
                 price: 242,
                 amount: 1,
-                total: 242
+                total: 242,
+                display: "none"
 
             }
         ]
     }
     getRowStyle = () => {
         return {
-            content: '', display: 'table', clear: 'both'
+            content: '', display: 'table', clear: 'both',
+            position: 'relative',
+            display: 'inline-block'
+            
         }
     }
     render() {
@@ -61,10 +69,13 @@ class App extends Component {
                     <Upload />
                 </div>
             </div>
-            <div style={this.getRowStyle()}>
-                <Receipt receipts={this.state.receipts} />
+            <div style={{textAlign: 'center'}}>
+                <div style={this.getRowStyle()}>
+                    <Receipt receipts={this.state.receipts} />
+                </div>
             </div>
-      </div>
+            <Footer />
+        </div>
     );
   }
 }

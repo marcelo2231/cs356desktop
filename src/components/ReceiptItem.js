@@ -10,7 +10,8 @@ export class ReceiptItem extends Component {
             borderRight: '1px #ccc dotted',
             borderLeft: '1px #ccc dotted',
             width: 230,
-            height: 275
+            height: 275,
+            display: this.props.receipt.display
         }
     }
 

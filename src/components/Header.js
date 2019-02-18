@@ -28,21 +28,22 @@ class Header extends Component {
             paddingLeft: 15,
             height: 40,
             width: 60,
-            float: 'left'
+            float: 'left',
         }
     }
 
     getLogoutButtonStyle = () => {
         return {
             backgroundColor: "Transparent",
-            borderColor: "#48AAB3",
-            color: "#48AAB3",
+            borderColor: "#48aab3",
+            color: "#48aab3",
             padding: 5,
             borderRadius: 14,
             float: 'right',
             marginTop: 7,
-            marginRight: 30
-        }
+            marginRight: 30,
+            border: '2px solid'
+    }
     }
 
     render() {

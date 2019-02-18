@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 class Receipt extends Component {
     getReceiptStyle = () => {
         return {
-            textAlign: 'left',
+            textAlign: 'center',
             float: 'left',
             marginLeft: 10,
             marginTop: 10
